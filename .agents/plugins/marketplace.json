@@ -1,0 +1,20 @@
+{
+  "name": "business-process-editor-marketplace",
+  "interface": {
+    "displayName": "Редактор бизнес-процессов"
+  },
+  "plugins": [
+    {
+      "name": "business-process-editor",
+      "source": {
+        "source": "local",
+        "path": "./plugins/business-process-editor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

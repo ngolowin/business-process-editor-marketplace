@@ -1,0 +1,28 @@
+{
+  "name": "business-process-editor",
+  "version": "0.1.0",
+  "description": "Проверка и улучшение описаний внутренних бизнес-процессов",
+  "author": {
+    "name": "Business Process Editor contributors"
+  },
+  "keywords": [
+    "business-process",
+    "process-audit",
+    "regulations",
+    "russian"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Редактор бизнес-процессов",
+    "shortDescription": "Проверяет внутренние процессы и регламенты.",
+    "longDescription": "Оценивает понятность, полноту, последовательность, безопасность и готовность внутренних бизнес-процессов к самостоятельному выполнению.",
+    "developerName": "Business Process Editor contributors",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Проверь этот бизнес-процесс и укажи обязательные исправления.",
+      "Оцени, можно ли выполнить этот регламент без пояснений автора.",
+      "Подготовь структурированный черновик процесса по моим данным."
+    ]
+  }
+}
